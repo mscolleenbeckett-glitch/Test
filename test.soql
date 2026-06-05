@@ -1,0 +1,3 @@
+SELECT Id, FirstName, LastName, Email
+FROM Contact
+WHERE Account.Name = 'Acme Corp'
